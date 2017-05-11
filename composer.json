@@ -1,0 +1,17 @@
+{
+    "name": "nmred/kafka-demo",
+    "description": "Kafka client for php",
+    "type": "library",
+    "keywords": [
+        "Client",
+        "Kafka"
+    ],
+    "homepage": "http://www.swanlinux.net",
+    "license": "BSD-3-Clause",
+    "require": {
+        "php": ">=5.5",
+		"nmred/kafka-php" : "v0.2.0.2",
+		"monolog/monolog" : "1.22.1",
+		"kmelia/monolog-stdout-handler" : "1.2.1"
+    }
+}
